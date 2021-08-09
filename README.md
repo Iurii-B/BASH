@@ -1,5 +1,5 @@
 ## systemmonitor.sh ##
-Thus script is a learning task for BASH course by Rebrain. 
+This script is an educational task for BASH course by Rebrain. 
 It is used to monitor system resources and relies mainly on Linux built-in tools (parsing system files and utilities like "ip").
 sysstat package is also used, its presence is being checked in the beginning of the script.
 
@@ -13,9 +13,11 @@ Or just try to run the script without any options/arguments or with unsupported 
 ### Help ###
 
 This is a script to have most common system monitoring tools under one umbrella.
-Please ensure that sysstat and ifstat packages are installed
+Please ensure that sysstat and ifstat packages are installed.
+
 Syntax: systemmonitor [OPTION] [ARGUMENT]
-Only 1 [OPTION] or a combination [OPTION] [ARGUMENT] is allowed. The exception is -o | --output
+
+Only 1 [OPTION] or a combination [OPTION] [ARGUMENT] is allowed. The exception is -o | --output.
 
 Options list:
 
